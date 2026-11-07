@@ -3,20 +3,37 @@ on:
   schedule:
     - cron: "0 4 * * *"   # täglich ca. 5/6 Uhr deutscher Zeit
   workflow_dispatch:       # manuell startbar
+  push:                    # nach Änderungen am Skript sofort neu bauen
+    branches: [main]
+    paths:
+      - wow_kalender.py
+      - .github/workflows/kalender.yml
 permissions:
   contents: write
+concurrency:
+  group: kalender
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Erreichbarkeit der Website prüfen (nur Diagnose)
+        continue-on-error: true
+        run: |
+          getent ahosts ludwigshafen-wow.de || true
+          curl -sS -o /dev/null -m 45 --connect-timeout 20 \
+            -w "HTTP %{http_code}, Verbindung %{time_connect}s, gesamt %{time_total}s, IP %{remote_ip}\n" \
+            https://ludwigshafen-wow.de/ || true
       - run: python3 wow_kalender.py ludwigshafen-wow.ics
       - run: |
           git config user.name "kalender-bot"
           git config user.email "kalender-bot@users.noreply.github.com"
           git add ludwigshafen-wow.ics
           git diff --cached --quiet || git commit -m "Kalender aktualisiert"
+          git pull --rebase
           git push
