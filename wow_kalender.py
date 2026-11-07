@@ -45,13 +45,39 @@ def fold(line):
     return "\r\n ".join(out)
 
 
+PROP = re.compile(
+    r"^(?:BEGIN|END|DTSTART|DTEND|DTSTAMP|UID|SUMMARY|DESCRIPTION|LOCATION|URL|CATEGORIES|STATUS|"
+    r"CREATED|LAST-MODIFIED|SEQUENCE|ORGANIZER|GEO|CLASS|TRANSP|ATTACH|RRULE|PRIORITY|X-[A-Z0-9-]+)[;:]"
+)
+
+
+def logical_lines(text):
+    """Entfaltet Zeilen und repariert rohe Zeilenumbrüche in Textfeldern.
+
+    Die Einzelexporte der Website enthalten teils echte Zeilenumbrüche mitten in
+    DESCRIPTION. Solche Zeilen beginnen ohne Eigenschaftsnamen und machen die
+    Datei ungültig (iPhone lehnt das Abo dann ab). Sie werden als "\\n" an den
+    vorherigen Wert angehängt.
+    """
+    out = []
+    for l in text.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+        if not l.strip():
+            continue
+        if l[0] in " \t" and out:
+            out[-1] += l[1:]
+        elif PROP.match(l) or not out:
+            out.append(l)
+        else:
+            out[-1] += "\\n" + l
+    return out
+
+
 def vevent(ics):
     m = re.search(r"BEGIN:VEVENT(.*?)END:VEVENT", ics, re.S)
     if not m:
         return None
     body = re.sub(r"BEGIN:VALARM.*?END:VALARM", "", m.group(1), flags=re.S)  # keine 100 Erinnerungen
-    lines = [l.rstrip("\r") for l in body.split("\n")]
-    lines = [l for l in lines if l.strip() and not l.startswith("TZID:")]
+    lines = [l for l in logical_lines(body) if not l.startswith("TZID:")]
     # Manche Termine haben auf der Website keine saubere Uhrzeit (Startzeit = Exportzeitpunkt,
     # Ende 1970). Die werden zu ganztägigen Terminen am richtigen Tag.
     start = next((l for l in lines if l.startswith("DTSTART")), "")
