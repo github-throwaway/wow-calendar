@@ -7,6 +7,7 @@ Aufruf: python3 wow_kalender.py [ausgabe.ics]
 """
 import json, re, sys, time, urllib.request
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 BASE = "https://ludwigshafen-wow.de"
 GRID_ID = 45  # Veranstaltungskalender auf der Startseite
@@ -103,6 +104,25 @@ def vevent(ics):
     return ["BEGIN:VEVENT"] + [fold(l) for l in lines] + ["END:VEVENT"]
 
 
+BERLIN = ZoneInfo("Europe/Berlin")
+WERKTAGS_AB = 16  # Mo–Fr nur Termine, die um/nach 16 Uhr beginnen; Sa/So alle
+
+
+def wanted(ev):
+    """Filter: unter der Woche nur Termine ab 16 Uhr, am Wochenende alles.
+
+    Ganztägige Termine (ohne bekannte Uhrzeit) bleiben drin.
+    """
+    start = next((l for l in ev if l.startswith("DTSTART")), "")
+    m = re.search(r":(\d{8})T(\d{6})(Z?)$", start)
+    if not m:
+        return True
+    dt = datetime.strptime(m.group(1) + m.group(2), "%Y%m%d%H%M%S")
+    if m.group(3):  # UTC-Zeit -> deutsche Zeit
+        dt = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN)
+    return dt.weekday() >= 5 or dt.hour >= WERKTAGS_AB
+
+
 VTIMEZONE = """BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -127,17 +147,19 @@ def main(out="ludwigshafen-wow.ics"):
     print(f"{len(ids)} Veranstaltungen gefunden", file=sys.stderr)
     if not ids:
         sys.exit("Keine Veranstaltungen gefunden – alte Datei bleibt unverändert.")
-    events = []
+    events, loaded = [], 0
     for i in ids:
         try:
             ev = vevent(http(f"{BASE}/feed/calendar/?id={i}"))
             if ev:
-                events.append(ev)
+                loaded += 1
+                if wanted(ev):
+                    events.append(ev)
         except Exception as e:
             print(f"  ID {i} übersprungen: {e}", file=sys.stderr)
         time.sleep(0.3)  # Server schonen
-    if len(events) < len(ids) / 2:
-        sys.exit(f"Nur {len(events)} von {len(ids)} Terminen geladen – alte Datei bleibt unverändert.")
+    if loaded < len(ids) / 2:
+        sys.exit(f"Nur {loaded} von {len(ids)} Terminen geladen – alte Datei bleibt unverändert.")
     cal = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//wow-kalender-abo//DE", "CALSCALE:GREGORIAN",
            "METHOD:PUBLISH", "X-WR-CALNAME:Ludwigshafen WOW", "X-WR-TIMEZONE:Europe/Berlin",
            "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"] + VTIMEZONE
@@ -146,7 +168,8 @@ def main(out="ludwigshafen-wow.ics"):
     cal.append("END:VCALENDAR")
     with open(out, "w", encoding="utf-8", newline="") as f:
         f.write("\r\n".join(cal) + "\r\n")
-    print(f"{len(events)} Termine in {out} geschrieben", file=sys.stderr)
+    print(f"{len(events)} von {loaded} Terminen in {out} geschrieben "
+          f"(Mo–Fr vor {WERKTAGS_AB} Uhr aussortiert)", file=sys.stderr)
 
 
 if __name__ == "__main__":
