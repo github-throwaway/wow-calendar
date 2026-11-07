@@ -10,13 +10,27 @@ from datetime import datetime, timezone
 
 BASE = "https://ludwigshafen-wow.de"
 GRID_ID = 45  # Veranstaltungskalender auf der Startseite
-UA = {"User-Agent": "wow-kalender-abo/1.0 (privater Kalender-Export)"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; wow-kalender-abo/1.1; privater Kalender-Export)",
+    "Accept": "application/json, text/calendar, text/html;q=0.9, */*;q=0.8",
+    "Accept-Language": "de-DE,de;q=0.9",
+}
+RETRIES = 4  # Versuche pro Anfrage; Wartezeit dazwischen 10s, 30s, 90s
 
 
 def http(url, data=None):
-    req = urllib.request.Request(url, data=data, headers={**UA, **({"Content-Type": "application/json"} if data else {})})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    headers = {**HEADERS, **({"Content-Type": "application/json"} if data else {})}
+    for attempt in range(RETRIES):
+        try:
+            req = urllib.request.Request(url, data=data, headers=headers)
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:
+            if attempt == RETRIES - 1:
+                raise
+            wait = 10 * 3 ** attempt
+            print(f"  {url}: {e} – neuer Versuch in {wait}s", file=sys.stderr)
+            time.sleep(wait)
 
 
 def event_ids():
@@ -111,6 +125,8 @@ END:VTIMEZONE""".split("\n")
 def main(out="ludwigshafen-wow.ics"):
     ids = event_ids()
     print(f"{len(ids)} Veranstaltungen gefunden", file=sys.stderr)
+    if not ids:
+        sys.exit("Keine Veranstaltungen gefunden – alte Datei bleibt unverändert.")
     events = []
     for i in ids:
         try:
@@ -120,6 +136,8 @@ def main(out="ludwigshafen-wow.ics"):
         except Exception as e:
             print(f"  ID {i} übersprungen: {e}", file=sys.stderr)
         time.sleep(0.3)  # Server schonen
+    if len(events) < len(ids) / 2:
+        sys.exit(f"Nur {len(events)} von {len(ids)} Terminen geladen – alte Datei bleibt unverändert.")
     cal = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//wow-kalender-abo//DE", "CALSCALE:GREGORIAN",
            "METHOD:PUBLISH", "X-WR-CALNAME:Ludwigshafen WOW", "X-WR-TIMEZONE:Europe/Berlin",
            "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"] + VTIMEZONE
