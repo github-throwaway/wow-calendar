@@ -29,7 +29,7 @@ CREATED:20261127T103856
 UID:57815
 DTSTART;TZID=Europe/Berlin:20261127T160000
 DTEND;TZID=Europe/Berlin:20261127T170000
-DTSTAMP:20261127T133446
+DTSTAMP:20261128T124748
 LOCATION:
 DESCRIPTION:Wegwerfen und neu kaufen war gestern. Tausch Dich glücklich be
  i unserer Kleidertauschparty!Bei dir hängen Klamotten im Schrank, die du 
@@ -54,72 +54,11 @@ URL;VALUE=URI:https://ludwigshafen-wow.de/kleidertauschparty-12/
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-CREATED:20261127T145346
-UID:62514
-DTSTART;TZID=Europe/Berlin:20261127T193000
-DTEND;TZID=Europe/Berlin:20261127T203000
-DTSTAMP:20261127T133449
-LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
-DESCRIPTION:MAMI ist inspiriert von den tiefen Bindungen, die Mario Banushi
-  zu den Frauen hatte, die ihn großgezogen haben. Seine Eltern trennten si
- ch noch vor seiner Geburt. Als er gerade ein Jahr alt war, geriet seine Mu
- tter in eine finanziell prekäre Lage, sodass sie Mario Banushi zu seiner 
- Großmutter nach Albanien schicken musste, wo er bis zu seinem sechsten Le
- bensjahr blieb, bevor er nach Athen zurückkehrte. Insofern hatte er zwei 
- Mütter: seine leibliche Mutter und seine Großmutter, die er bis zu seine
- m dreizehnten Lebensjahr „Mami“ nannte. Diesen Frauen, die in seiner V
- orstellung zu einer einzigen mütterlichen Figur mit tausend Gesichtern ve
- rschmelzen, widmet er mit MAMI eine Hommage. Der heute 28-jährige, in Alb
- anien geborene Künstler ist Schöpfer einer originellen und multidiszipli
- nären Bühnensprache, die stark von seinen albanischen Wurzeln geprägt i
- st. Die Eindrücke, die MAMI transportiert, sind voller Farben, Düfte und
-  Empfindungen. In MAMI entwickelt Mario Banushi ein visuelles Gedicht, ein
- e Landschaft der Erinnerungen, durch die sich die Darsteller bewegen, um s
- ich mit ihren eigenen Erinnerungen und ihrem emotionalen Erbe auseinanderz
- usetzen. Mit einem großen Gespür für gesellschaftliche Rituale wie Hoch
- zeiten, Taufen, Beerdigungen hinterfragt Mario Banushi diese Ereignisse un
- d spürt den Geschichten nach, die sich hinter diesen Zeremonien verbergen
- .  Tickets  Physical Theatre von Mario BanushiAlbanien / GriechenlandKonze
- pt und Inszenierung Mario BanushiBühne und Kostüme Sotiris MelanosMusik 
- und Sound-Design Jeph VangerLicht-Design und Dramaturgie Stephanus Droussi
- otisProduktion Onassis StegiIn Koproduktion mit Berliner Festspiele, Odéo
- n Théâtre de l’Europe Paris, FOG festival Triennale Milano Teatro, & E
- spoo Theatre, Festival d’Avignon, Grec Festival Barcelona, Théâtre de 
- Liège, Noorderzon Festival / Grand Theatre GroningenGROSSE BÜHNEFR, 27.1
- 1.26, 19:30 UHR, TZF, 3/9 FPreise 41 € / 35 € / 29 € / 23 €Dauer c
- a. 1 Stunde 10 Minuten, keine PauseGefördert von
-SUMMARY:Mami
-ORGANIZER:ludwigshafen-wow
-URL;VALUE=URI:https://ludwigshafen-wow.de/mami/
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20261127T145802
-UID:62521
-DTSTART;TZID=Europe/Berlin:20261127T204500
-DTEND;TZID=Europe/Berlin:20261127T214500
-DTSTAMP:20261127T133450
-LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
-DESCRIPTION:Dream Folkrock als nächtlicher Soundtrack nach dem Theater: Vo
- n einem warmen Vintage-Sound umhüllt, singt Peppler mit bewegender Stimme
-  über Vertrauen, Verbindung, Verlangen und wie es kommt und geht. Seine L
- ive-Konzerte bewegen sich irgendwo zwischen Folkrock und Dreampop.  Ticket
- s  After-Show-KonzertKuratiert von Bernd JestramGLÄSERNES FOYERFR, 27.11.
- 26, CA. 20:45 UHREinheitspreis 20 € / ermäßigt 12 €Im Anschluss an d
- ie Vorstellung, freier Eintritt für Gäste der Abendvorstellung. Es darf 
- getanzt werden!https://www.youtube.com/watch?v=HnBh_a0_Ft4&list=RDHnBh_a0_
- Ft4&start_radio=1
-SUMMARY:Peppler
-ORGANIZER:ludwigshafen-wow
-URL;VALUE=URI:https://ludwigshafen-wow.de/peppler/
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 CREATED:20261127T183000
 UID:62921
 DTSTART;TZID=Europe/Berlin:20261127T193000
 DTEND;TZID=Europe/Berlin:20261127T203000
-DTSTAMP:20261127T133452
+DTSTAMP:20261128T124752
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Auf der Bühne versammelt sind bei diesem Mal vier Poet*innen, 
@@ -139,7 +78,7 @@ CREATED:20261128T080000
 UID:62922
 DTSTART;TZID=Europe/Berlin:20261128T090000
 DTEND;TZID=Europe/Berlin:20261128T100000
-DTSTAMP:20261127T133453
+DTSTAMP:20261128T124754
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Zweimal im Jahr wird das Kulturzentrum dasHaus zum Marktplatz f
@@ -168,7 +107,7 @@ CREATED:20261128T134438
 UID:61885
 DTSTART;TZID=Europe/Berlin:20261128T140000
 DTEND;TZID=Europe/Berlin:20261128T150000
-DTSTAMP:20261127T133454
+DTSTAMP:20261128T124755
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Das Offene Atelier öffnet jeden Samstag seine Türen für Kind
  er zwischen sechs und zwölf Jahren.Im bunten Kunstlabor kann gemalt, geze
@@ -188,7 +127,7 @@ CREATED:20261128T145954
 UID:62526
 DTSTART;TZID=Europe/Berlin:20261128T193000
 DTEND;TZID=Europe/Berlin:20261128T203000
-DTSTAMP:20261127T133456
+DTSTAMP:20261128T124757
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Michelle Marlys Bestseller Mademoiselle Coco und der Duft der L
  iebe zeichnet den Weg der Modeikone vom Waisenkind zur mondänen Herrscher
@@ -219,7 +158,7 @@ CREATED:20261129T100827
 UID:60846
 DTSTART;TZID=Europe/Berlin:20261129T150000
 DTEND;TZID=Europe/Berlin:20261129T160000
-DTSTAMP:20261127T133457
+DTSTAMP:20261128T124759
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Vernon Chatlein & FriendsDie Vielfalt der karibischen Musik ist
@@ -248,7 +187,7 @@ CREATED:20261129T150250
 UID:62532
 DTSTART;TZID=Europe/Berlin:20261129T160000
 DTEND;TZID=Europe/Berlin:20261129T170000
-DTSTAMP:20261127T133459
+DTSTAMP:20261128T124801
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Jedes Gefühl braucht seinen Raum – sei es die ungestüme Wut
  , so laut, dass die Wände wackeln, die leise sprechende Traurigkeit oder 
@@ -275,7 +214,7 @@ CREATED:20261129T150732
 UID:62544
 DTSTART;TZID=Europe/Berlin:20261129T110000
 DTEND;TZID=Europe/Berlin:20261129T120000
-DTSTAMP:20261127T133504
+DTSTAMP:20261128T124802
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Nach dem ersten Viertel des 21. Jahrhunderts ist es unübersehb
  ar – die Welt durchläuft umstürzende geopolitische, technologische und
@@ -308,7 +247,7 @@ CREATED:20261202T151118
 UID:62550
 DTSTART;TZID=Europe/Berlin:20261202T193000
 DTEND;TZID=Europe/Berlin:20261202T203000
-DTSTAMP:20261127T133509
+DTSTAMP:20261128T124806
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:In der Tanzperformance Magec / The Desert erkundet Radouan Mriz
  iga die Weisheit der Wüste und ihre Beziehung zu Zeit, Licht und Bewegung
@@ -351,7 +290,7 @@ CREATED:20261202T151555
 UID:62561
 DTSTART;TZID=Europe/Berlin:20261202T204500
 DTEND;TZID=Europe/Berlin:20261202T214500
-DTSTAMP:20261127T133510
+DTSTAMP:20261128T124808
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Carlos Gardel (1890-1935) zählt zu den bedeutendsten Stimmen d
  es klassischen Tangos, wodurch er zu einer zentralen Persönlichkeit der T
@@ -373,7 +312,7 @@ CREATED:20261203T102343
 UID:60864
 DTSTART;TZID=Europe/Berlin:20261203T200000
 DTEND;TZID=Europe/Berlin:20261203T210000
-DTSTAMP:20261127T133512
+DTSTAMP:20261128T124809
 LOCATION:
 DESCRIPTION:Als Begleiter zahlreicher Persönlichkeiten haben sich Arne Ja
  nsen und Stephan Braun einen Namen in der internationalen Jazzszene gema
@@ -401,7 +340,7 @@ CREATED:20261204T102848
 UID:60870
 DTSTART;TZID=Europe/Berlin:20261204T193000
 DTEND;TZID=Europe/Berlin:20261204T203000
-DTSTAMP:20261127T133513
+DTSTAMP:20261128T124811
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Der eine singt vor allem, der zweite spielt zumeist Klavier, de
@@ -433,7 +372,7 @@ CREATED:20261204T110540
 UID:56964
 DTSTART;TZID=Europe/Berlin:20261204T200000
 DTEND;TZID=Europe/Berlin:20261204T210000
-DTSTAMP:20261127T133515
+DTSTAMP:20261128T124812
 LOCATION:Friedrich-Ebert-Halle\, Erzbergerstraße 89\, 67063 Ludwigshafen a
  m Rhein
 DESCRIPTION:Die DDC, bekannt als zweimaliger Breakdance-Weltmeister und int
@@ -483,7 +422,7 @@ CREATED:20261204T180000
 UID:62923
 DTSTART;TZID=Europe/Berlin:20261204T190000
 DTEND;TZID=Europe/Berlin:20261204T200000
-DTSTAMP:20261127T133516
+DTSTAMP:20261128T124813
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Da Ton- und Filmspur in den frühen Jahren des Films noch nicht
@@ -510,7 +449,7 @@ CREATED:20261205T080000
 UID:62924
 DTSTART;TZID=Europe/Berlin:20261205T090000
 DTEND;TZID=Europe/Berlin:20261205T100000
-DTSTAMP:20261127T133518
+DTSTAMP:20261128T124815
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Kurz vor Weihnachten bietet sich die perfekte Gelegenheit, nach
@@ -544,7 +483,7 @@ CREATED:20261205T104440
 UID:60902
 DTSTART;TZID=Europe/Berlin:20261205T200000
 DTEND;TZID=Europe/Berlin:20261205T210000
-DTSTAMP:20261127T133519
+DTSTAMP:20261128T124816
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:„Unplugged 2026“ – Das WohnzimmerkonzertGefühlvoll, nahb
@@ -565,10 +504,10 @@ URL;VALUE=URI:https://ludwigshafen-wow.de/gregor-meyle/
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20261128
 CREATED:20261205T104927
 UID:54838
-DTSTAMP:20261127T133521
+DTSTAMP:20261128T124817
 LOCATION:
 DESCRIPTION:Der Valentin-Bauer-Bunker wurde 1941 errichtet und ist ein zivi
  ler Luftschutzbunker, der den Menschen im Zweiten Weltkrieg Schutz vor Bom
@@ -589,7 +528,7 @@ CREATED:20261205T132833
 UID:58882
 DTSTART;TZID=Europe/Berlin:20261205T193000
 DTEND;TZID=Europe/Berlin:20261205T203000
-DTSTAMP:20261127T133522
+DTSTAMP:20261128T124819
 LOCATION:
 DESCRIPTION:Wenn die Tage kürzer, die Lichter heller und die Herzen offene
  r werden, lädt Kathy Kelly zu einer Reise ein, die mitten ins Fest führt
@@ -615,7 +554,7 @@ CREATED:20261205T134438
 UID:61886
 DTSTART;TZID=Europe/Berlin:20261205T140000
 DTEND;TZID=Europe/Berlin:20261205T150000
-DTSTAMP:20261127T133523
+DTSTAMP:20261128T124820
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Das Offene Atelier öffnet jeden Samstag seine Türen für Kind
  er zwischen sechs und zwölf Jahren.Im bunten Kunstlabor kann gemalt, geze
@@ -635,7 +574,7 @@ CREATED:20261205T151637
 UID:62563
 DTSTART;TZID=Europe/Berlin:20261205T193000
 DTEND;TZID=Europe/Berlin:20261205T203000
-DTSTAMP:20261127T133525
+DTSTAMP:20261128T124822
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Dass sich Carl Zuckmayers Hauptmann von Köpenick, der eigentli
  ch acht "Hauptgestalten" nebst einer unbestimmten Anzahl von "Zeitgenossen
@@ -676,7 +615,7 @@ CREATED:20261205T151951
 UID:62571
 DTSTART;TZID=Europe/Berlin:20261205T213000
 DTEND;TZID=Europe/Berlin:20261205T223000
-DTSTAMP:20261127T133526
+DTSTAMP:20261128T124823
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Die Musik der 20er und 30er Jahre begeistert bis heute mit ihre
  m besonderen Mix aus Chanson, Filmschlager und tanzbarer Leichtigkeit. Die
@@ -697,7 +636,7 @@ CREATED:20261206T000127
 UID:62082
 DTSTART;TZID=Europe/Berlin:20261206T110000
 DTEND;TZID=Europe/Berlin:20261206T120000
-DTSTAMP:20261127T133528
+DTSTAMP:20261128T124824
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Alle zwei Wochen sonntags veranstaltet die Pfälzische Musikges
  ellschaft e.V. Konzertmatineen im Museum. Quelle: Wilhelm-Hack-Museum, Bil
@@ -714,7 +653,7 @@ CREATED:20261206T000430
 UID:62088
 DTSTART;TZID=Europe/Berlin:20261206T140000
 DTEND;TZID=Europe/Berlin:20261206T150000
-DTSTAMP:20261127T133529
+DTSTAMP:20261128T124826
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:„Kann ich nicht“ – gibt es nicht! Unser generationen
  übergreifendes Format bringt Fantasie und Ideenreichtum der Kinder mit de
@@ -736,7 +675,7 @@ CREATED:20261206T151835
 UID:62569
 DTSTART;TZID=Europe/Berlin:20261206T180000
 DTEND;TZID=Europe/Berlin:20261206T190000
-DTSTAMP:20261127T133531
+DTSTAMP:20261128T124827
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Dass sich Carl Zuckmayers Hauptmann von Köpenick, der eigentli
  ch acht "Hauptgestalten" nebst einer unbestimmten Anzahl von "Zeitgenossen
@@ -777,7 +716,7 @@ CREATED:20261206T152341
 UID:62576
 DTSTART;TZID=Europe/Berlin:20261206T160000
 DTEND;TZID=Europe/Berlin:20261206T170000
-DTSTAMP:20261127T133532
+DTSTAMP:20261128T124829
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Wenn man alle Geräusche auf einmal abstellen könnte, was wür
  de man dann hören? Wir werden leise und Stilles wird laut.Wir wenden uns 
@@ -806,7 +745,7 @@ CREATED:20261206T152709
 UID:62584
 DTSTART;TZID=Europe/Berlin:20261206T110000
 DTEND;TZID=Europe/Berlin:20261206T120000
-DTSTAMP:20261127T133534
+DTSTAMP:20261128T124830
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Gibt es Grenzen der Einfühlung in andere? Wozu verpflichtet un
  s die Erinnerung an die Geschichte? Gibt es Grenzen der Pflicht, im Namen 
@@ -837,7 +776,7 @@ CREATED:20261208T090000
 UID:63243
 DTSTART;TZID=Europe/Berlin:20261208T190000
 DTEND;TZID=Europe/Berlin:20261208T200000
-DTSTAMP:20261127T133537
+DTSTAMP:20261128T124833
 LOCATION:
 DESCRIPTION:Die Orientierung an ethischen Prinzipien gehört zum Standard m
  oderner medizinischer Einrichtungen. Ethische Fallberatungen bei moralisch
@@ -867,7 +806,7 @@ CREATED:20261208T180000
 UID:62590
 DTSTART;TZID=Europe/Berlin:20261208T190000
 DTEND;TZID=Europe/Berlin:20261208T200000
-DTSTAMP:20261127T133538
+DTSTAMP:20261128T124834
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Ebenezer Scrooge hasst Weihnachten, insbesondere die fröhliche
  n Menschen, die Lieder und das Gerede von der Nächstenliebe. Alle Dinge a
@@ -903,7 +842,7 @@ CREATED:20261208T190000
 UID:62925
 DTSTART;TZID=Europe/Berlin:20261208T200000
 DTEND;TZID=Europe/Berlin:20261208T210000
-DTSTAMP:20261127T133540
+DTSTAMP:20261128T124835
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Zwischen humorvollem Chaos, überraschenden Wendungen und ehrli
@@ -946,7 +885,7 @@ CREATED:20261210T001117
 UID:62102
 DTSTART;TZID=Europe/Berlin:20261211T173000
 DTEND;TZID=Europe/Berlin:20261211T183000
-DTSTAMP:20261127T133543
+DTSTAMP:20261128T124838
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Wir laden im Rahmen von Art After Work dazu ein, kreativ zu wer
  den. Zu jedem Termin bringen unsere Kunstvermittler*innen eine neue Techni
@@ -975,7 +914,7 @@ CREATED:20261210T105516
 UID:60908
 DTSTART;TZID=Europe/Berlin:20261210T200000
 DTEND;TZID=Europe/Berlin:20261210T210000
-DTSTAMP:20261127T133544
+DTSTAMP:20261128T124840
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:In den letzten 30 Jahren hat sich der international gefeierte B
@@ -1005,7 +944,7 @@ CREATED:20261210T153232
 UID:62601
 DTSTART;TZID=Europe/Berlin:20261210T193000
 DTEND;TZID=Europe/Berlin:20261210T203000
-DTSTAMP:20261127T133546
+DTSTAMP:20261128T124841
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Wir treffen die politische Theoretikerin Hannah Arendt 1975, se
  chs Monate vor ihrem Tod, in einem Hotelzimmer in Kopenhagen. In wenigen S
@@ -1054,7 +993,7 @@ CREATED:20261210T190000
 UID:62926
 DTSTART;TZID=Europe/Berlin:20261210T200000
 DTEND;TZID=Europe/Berlin:20261210T210000
-DTSTAMP:20261127T133547
+DTSTAMP:20261128T124842
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Die vom Förderverein dasHaus e.V. veranstaltete und von der pr
@@ -1081,7 +1020,7 @@ CREATED:20261211T001252
 UID:62104
 DTSTART;TZID=Europe/Berlin:20261211T180000
 DTEND;TZID=Europe/Berlin:20261211T190000
-DTSTAMP:20261127T133549
+DTSTAMP:20261128T124844
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:In Kooperation mit dem DJ-Kollektiv Waldrauschen verwandelt die
   ART Lounge das Wilhelm-Hack-Museum am Donnerstag in ein atmosphärisches 
@@ -1104,7 +1043,7 @@ CREATED:20261211T110051
 UID:60914
 DTSTART;TZID=Europe/Berlin:20261211T193000
 DTEND;TZID=Europe/Berlin:20261211T203000
-DTSTAMP:20261127T133550
+DTSTAMP:20261128T124846
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:\nWenn alle Jahre wieder überraschend plötzlich und wie aus d
@@ -1137,7 +1076,7 @@ CREATED:20261211T153438
 UID:62607
 DTSTART;TZID=Europe/Berlin:20261211T193000
 DTEND;TZID=Europe/Berlin:20261211T203000
-DTSTAMP:20261127T133552
+DTSTAMP:20261128T124847
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Wir treffen die politische Theoretikerin Hannah Arendt 1975, se
  chs Monate vor ihrem Tod, in einem Hotelzimmer in Kopenhagen. In wenigen S
@@ -1186,7 +1125,7 @@ CREATED:20261212T001420
 UID:62107
 DTSTART;TZID=Europe/Berlin:20261212T110000
 DTEND;TZID=Europe/Berlin:20261212T120000
-DTSTAMP:20261127T133553
+DTSTAMP:20261128T124848
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Ein Tag im Wilhelm-Hack-Museum mal anders: Das Foyer verwandelt
   sich in ein Begegnungscafé mit kleinen künstlerischen Aktionen und eine
@@ -1214,7 +1153,7 @@ CREATED:20261212T134437
 UID:61883
 DTSTART;TZID=Europe/Berlin:20261212T140000
 DTEND;TZID=Europe/Berlin:20261212T150000
-DTSTAMP:20261127T133554
+DTSTAMP:20261128T124850
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Das Offene Atelier öffnet jeden Samstag seine Türen für Kind
  er zwischen sechs und zwölf Jahren.Im bunten Kunstlabor kann gemalt, geze
@@ -1234,7 +1173,7 @@ CREATED:20261212T153446
 UID:62608
 DTSTART;TZID=Europe/Berlin:20261212T193000
 DTEND;TZID=Europe/Berlin:20261212T203000
-DTSTAMP:20261127T133556
+DTSTAMP:20261128T124851
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Wie durch Zauberei gelangen am 24. Dezember unzählige Pakete u
  nter deutsche Weihnachtsbäume. Schlaue Kinder wissen, dass diese nicht vo
@@ -1262,7 +1201,7 @@ CREATED:20261212T190000
 UID:62927
 DTSTART;TZID=Europe/Berlin:20261212T200000
 DTEND;TZID=Europe/Berlin:20261212T210000
-DTSTAMP:20261127T133557
+DTSTAMP:20261128T124852
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Seit 1988 widmet sich der 1. Verein für türkische Kunstmusik 
@@ -1295,7 +1234,7 @@ CREATED:20261213T001639
 UID:62112
 DTSTART;TZID=Europe/Berlin:20261213T140000
 DTEND;TZID=Europe/Berlin:20261213T150000
-DTSTAMP:20261127T133559
+DTSTAMP:20261128T124854
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:In diesem inklusiven Weihnachts-Workshop entdecken wir Kunst je
  nseits des Sehens. Gemeinsam erkunden wir Materialien, formen im Blind-Mod
@@ -1318,7 +1257,7 @@ CREATED:20261213T111206
 UID:60923
 DTSTART;TZID=Europe/Berlin:20261213T110000
 DTEND;TZID=Europe/Berlin:20261213T120000
-DTSTAMP:20261127T133600
+DTSTAMP:20261128T124855
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Mit dem in Tiflis geborenen Sandro Nebieridze schickt sich ei
@@ -1346,7 +1285,7 @@ CREATED:20261213T153705
 UID:62614
 DTSTART;TZID=Europe/Berlin:20261213T160000
 DTEND;TZID=Europe/Berlin:20261213T170000
-DTSTAMP:20261127T133602
+DTSTAMP:20261128T124856
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Im Café Concert Christmas führen Carolin Grein und die Sachs-
  Band durch verschiede Winterlandschaften und Weihnachtsstimmungen, und dab
@@ -1376,7 +1315,7 @@ CREATED:20261213T215532
 UID:61914
 DTSTART;TZID=Europe/Berlin:20261213T110000
 DTEND;TZID=Europe/Berlin:20261213T120000
-DTSTAMP:20261127T133603
+DTSTAMP:20261128T124858
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Kunstangebot für Menschen mit Demenz und ihre AngehörigenMens
  chen mit Demenz und ihre Angehörigen haben die Möglichkeit, im Museumsat
@@ -1400,7 +1339,7 @@ CREATED:20261217T190000
 UID:62928
 DTSTART;TZID=Europe/Berlin:20261217T200000
 DTEND;TZID=Europe/Berlin:20261217T210000
-DTSTAMP:20261127T133605
+DTSTAMP:20261128T124859
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Die Veranstaltungsreihe des Fördervereins dasHaus e.V. wird vo
@@ -1424,7 +1363,7 @@ CREATED:20261217T190000
 UID:62929
 DTSTART;TZID=Europe/Berlin:20261217T200000
 DTEND;TZID=Europe/Berlin:20261219T210000
-DTSTAMP:20261127T133606
+DTSTAMP:20261128T124901
 LOCATION:Kulturzentrum dasHausBahnhofstraße 30\, 67059 Ludwigshafen am Rhe
  in
 DESCRIPTION:Donnerstag, 17.12. ab 20:00\nDie Ausstellungseröffnung\nPhanta
@@ -1481,7 +1420,7 @@ CREATED:20261217T190000
 UID:62969
 DTSTART;TZID=Europe/Berlin:20261217T200000
 DTEND;TZID=Europe/Berlin:20261217T210000
-DTSTAMP:20261127T133608
+DTSTAMP:20261128T124903
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nAb dem dritten Mal darf man wohl von einer liebge
@@ -1506,7 +1445,7 @@ CREATED:20261218T112118
 UID:60932
 DTSTART;TZID=Europe/Berlin:20261218T180000
 DTEND;TZID=Europe/Berlin:20261218T190000
-DTSTAMP:20261127T133609
+DTSTAMP:20261128T124904
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Mitsingkonzert mit der Fire Evening House BandHeißer Glühwein
@@ -1529,7 +1468,7 @@ CREATED:20261218T153711
 UID:62615
 DTSTART;TZID=Europe/Berlin:20261218T193000
 DTEND;TZID=Europe/Berlin:20261218T203000
-DTSTAMP:20261127T133610
+DTSTAMP:20261128T124906
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Pina Bausch ist unbestritten eine der bedeutendsten Choreograph
  innen des 20. Jahrhunderts. Unter ihrer Leitung erlangte das Tanztheater W
@@ -1573,7 +1512,7 @@ CREATED:20261218T154456
 UID:62629
 DTSTART;TZID=Europe/Berlin:20261218T220000
 DTEND;TZID=Europe/Berlin:20261218T230000
-DTSTAMP:20261127T133612
+DTSTAMP:20261128T124907
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Seit einem Vierteljahrhundert ist das Münchner Kollektiv Expre
  ss Brass Band nun schon mit rund 20 Musiker*innen im internationalen Musik
@@ -1595,7 +1534,7 @@ CREATED:20261219T001824
 UID:62117
 DTSTART;TZID=Europe/Berlin:20261219T190000
 DTEND;TZID=Europe/Berlin:20261219T200000
-DTSTAMP:20261127T133613
+DTSTAMP:20261128T124909
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Die erfolgreiche Konzertreihe “Ditzner‘s Club” im Wilhelm
  -Hack-Museum geht in eine neue Runde. Gastgeber Erwin Ditzner, einer der b
@@ -1635,7 +1574,7 @@ CREATED:20261219T134437
 UID:61884
 DTSTART;TZID=Europe/Berlin:20261219T140000
 DTEND;TZID=Europe/Berlin:20261219T150000
-DTSTAMP:20261127T133615
+DTSTAMP:20261128T124911
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Das Offene Atelier öffnet jeden Samstag seine Türen für Kind
  er zwischen sechs und zwölf Jahren.Im bunten Kunstlabor kann gemalt, geze
@@ -1655,7 +1594,7 @@ CREATED:20261219T154142
 UID:62625
 DTSTART;TZID=Europe/Berlin:20261219T193000
 DTEND;TZID=Europe/Berlin:20261219T203000
-DTSTAMP:20261127T133616
+DTSTAMP:20261128T124912
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Pina Bausch ist unbestritten eine der bedeutendsten Choreograph
  innen des 20. Jahrhunderts. Unter ihrer Leitung erlangte das Tanztheater W
@@ -1699,7 +1638,7 @@ CREATED:20261219T154701
 UID:62635
 DTSTART;TZID=Europe/Berlin:20261219T220000
 DTEND;TZID=Europe/Berlin:20261219T230000
-DTSTAMP:20261127T133618
+DTSTAMP:20261128T124914
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Seit einem Vierteljahrhundert ist das Münchner Kollektiv Expre
  ss Brass Band nun schon mit rund 20 Musiker*innen im internationalen Musik
@@ -1721,7 +1660,7 @@ CREATED:20261220T002238
 UID:62122
 DTSTART;TZID=Europe/Berlin:20261220T110000
 DTEND;TZID=Europe/Berlin:20261220T120000
-DTSTAMP:20261127T133619
+DTSTAMP:20261128T124915
 LOCATION:Wilhelm-Hack-MuseumBerliner Str. 23\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Alle zwei Wochen sonntags veranstaltet die Pfälzische Musikges
  ellschaft e.V. Konzertmatineen im Museum. Quelle: Wilhelm-Hack-Museum, Bil
@@ -1738,7 +1677,7 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261221
 CREATED:20261220T094950
 UID:62287
-DTSTAMP:20261127T133620
+DTSTAMP:20261128T124917
 LOCATION:
 DESCRIPTION:Im Repair Café der BetonbLUme kannst du Kleidung und andere Li
  eblingsstücke reparieren, verschönern oder ihnen ein neues Leben schenke
@@ -1770,7 +1709,7 @@ CREATED:20261220T151354
 UID:62556
 DTSTART;TZID=Europe/Berlin:20261220T203000
 DTEND;TZID=Europe/Berlin:20261220T213000
-DTSTAMP:20261127T133622
+DTSTAMP:20261128T124919
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Carlos Gardel (1890-1935) zählt zu den bedeutendsten Stimmen d
  es klassischen Tangos, wodurch er zu einer zentralen Persönlichkeit der T
@@ -1792,7 +1731,7 @@ CREATED:20261220T154147
 UID:62626
 DTSTART;TZID=Europe/Berlin:20261220T180000
 DTEND;TZID=Europe/Berlin:20261220T190000
-DTSTAMP:20261127T133623
+DTSTAMP:20261128T124921
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Pina Bausch ist unbestritten eine der bedeutendsten Choreograph
  innen des 20. Jahrhunderts. Unter ihrer Leitung erlangte das Tanztheater W
@@ -1836,7 +1775,7 @@ CREATED:20261222T183000
 UID:62630
 DTSTART;TZID=Europe/Berlin:20261222T193000
 DTEND;TZID=Europe/Berlin:20261222T203000
-DTSTAMP:20261127T133626
+DTSTAMP:20261128T124924
 LOCATION:Theater im PfalzbauBerliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:So besinnlich, überraschend, und glitzernd wie die Weihnachtsz
  eit selbst:Nina Petri liest Gedichte und Prosa von Erich Kästner, Mascha 
@@ -1871,7 +1810,7 @@ CREATED:20270103T153643
 UID:57302
 DTSTART;TZID=Europe/Berlin:20270103T180000
 DTEND;TZID=Europe/Berlin:20270103T190000
-DTSTAMP:20261127T133628
+DTSTAMP:20261128T124926
 LOCATION:
 DESCRIPTION:Ein Konzertabend, der das Wesentliche feiert: die Stimme. Mit d
  er Jubiläumstournee 2026/2027 blickt „Die Himmlische Nacht der Tenöre
@@ -1923,7 +1862,7 @@ CREATED:20270113T141736
 UID:61206
 DTSTART;TZID=Europe/Berlin:20270113T193000
 DTEND;TZID=Europe/Berlin:20270113T203000
-DTSTAMP:20261127T133629
+DTSTAMP:20261128T124927
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Preisfrage: Warum hat eine handelsübliche Compact-Disc eine Sp
@@ -1958,7 +1897,7 @@ CREATED:20270114T122322
 UID:60605
 DTSTART;TZID=Europe/Berlin:20270114T193000
 DTEND;TZID=Europe/Berlin:20270114T203000
-DTSTAMP:20261127T133630
+DTSTAMP:20261128T124929
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Poetry Slam, das ist die Kunst, Worte zu verdichten, Emotionen 
@@ -1982,7 +1921,7 @@ CREATED:20270115T143623
 UID:61225
 DTSTART;TZID=Europe/Berlin:20270115T193000
 DTEND;TZID=Europe/Berlin:20270115T203000
-DTSTAMP:20261127T133632
+DTSTAMP:20261128T124930
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Nicht alles, was die Philharmonix machen, ist klassische Musi
@@ -2010,7 +1949,7 @@ CREATED:20270122T132816
 UID:62337
 DTSTART;TZID=Europe/Berlin:20270122T193000
 DTEND;TZID=Europe/Berlin:20270122T203000
-DTSTAMP:20261127T133633
+DTSTAMP:20261128T124932
 LOCATION:
 DESCRIPTION:In einer kleinen Stadt, die überall sein könnte, geht es gem
  ächlich zu. Die Bürgerinnen und Bürger gehen ihren Geschäften nach, ü
@@ -2050,7 +1989,7 @@ CREATED:20270123T111751
 UID:56971
 DTSTART;TZID=Europe/Berlin:20270123T150000
 DTEND;TZID=Europe/Berlin:20270123T160000
-DTSTAMP:20261127T133634
+DTSTAMP:20261128T124934
 LOCATION:Pfalzbau\, Berliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Zwischen Traumwelt und Wirklichkeit: Im Musical-Highlight „Sc
  hneekönigin“ wird das Publikum Teil eines spannenden Abenteuers mit zau
@@ -2089,7 +2028,7 @@ CREATED:20270123T133010
 UID:62342
 DTSTART;TZID=Europe/Berlin:20270123T193000
 DTEND;TZID=Europe/Berlin:20270123T203000
-DTSTAMP:20261127T133636
+DTSTAMP:20261128T124936
 LOCATION:
 DESCRIPTION:In einer kleinen Stadt, die überall sein könnte, geht es gem
  ächlich zu. Die Bürgerinnen und Bürger gehen ihren Geschäften nach, ü
@@ -2129,7 +2068,7 @@ CREATED:20270128T183000
 UID:62970
 DTSTART;TZID=Europe/Berlin:20270128T193000
 DTEND;TZID=Europe/Berlin:20270128T203000
-DTSTAMP:20261127T133637
+DTSTAMP:20261128T124937
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nLeonie Klein, Schlagzeug\nInteraktives Hörspiel-
@@ -2160,7 +2099,7 @@ CREATED:20270130T145606
 UID:61237
 DTSTART;TZID=Europe/Berlin:20270130T150000
 DTEND;TZID=Europe/Berlin:20270130T160000
-DTSTAMP:20261127T133640
+DTSTAMP:20261128T124940
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:In dieser Performance von Leonie Klein dreht sich alles um de
@@ -2187,7 +2126,7 @@ CREATED:20270207T145828
 UID:61241
 DTSTART;TZID=Europe/Berlin:20270207T110000
 DTEND;TZID=Europe/Berlin:20270207T120000
-DTSTAMP:20261127T133641
+DTSTAMP:20261128T124942
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Clarissa Bevilacqua war schon immer früh dran. Im Alter von n
@@ -2215,7 +2154,7 @@ CREATED:20270210T150630
 UID:61254
 DTSTART;TZID=Europe/Berlin:20270210T193000
 DTEND;TZID=Europe/Berlin:20270210T203000
-DTSTAMP:20261127T133643
+DTSTAMP:20261128T124943
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Zum Beginn der Fastenzeit wird traditionell ordentlich ausgetei
@@ -2246,7 +2185,7 @@ CREATED:20270213T152412
 UID:61269
 DTSTART;TZID=Europe/Berlin:20270213T150000
 DTEND;TZID=Europe/Berlin:20270213T160000
-DTSTAMP:20261127T133645
+DTSTAMP:20261128T124947
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Wenn die Klangpiraten in See stechen, haben sie in ihrer Scha
@@ -2273,7 +2212,7 @@ CREATED:20270214T152731
 UID:61275
 DTSTART;TZID=Europe/Berlin:20270214T110000
 DTEND;TZID=Europe/Berlin:20270214T120000
-DTSTAMP:20261127T133647
+DTSTAMP:20261128T124948
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Dass klassische Musik in anderen Regionen der Welt einen höher
@@ -2301,7 +2240,7 @@ CREATED:20270222T085117
 UID:61282
 DTSTART;TZID=Europe/Berlin:20270222T180000
 DTEND;TZID=Europe/Berlin:20270222T190000
-DTSTAMP:20261127T133648
+DTSTAMP:20261128T124950
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Gabor Vosteen beherrscht nicht nur sein Instrument in kunstvol
@@ -2330,7 +2269,7 @@ CREATED:20270224T090435
 UID:61306
 DTSTART;TZID=Europe/Berlin:20270224T193000
 DTEND;TZID=Europe/Berlin:20270224T203000
-DTSTAMP:20261127T133651
+DTSTAMP:20261128T124953
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Im Orchester bildet der Kontrabass das klangliche Fundament. Er
@@ -2363,7 +2302,7 @@ CREATED:20270226T183000
 UID:62971
 DTSTART;TZID=Europe/Berlin:20270226T193000
 DTEND;TZID=Europe/Berlin:20270226T203000
-DTSTAMP:20261127T133652
+DTSTAMP:20261128T124955
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nMaybebop, A-cappella-Ensemble\nVokalGenial, Pop-J
@@ -2390,7 +2329,7 @@ CREATED:20270228T183000
 UID:62972
 DTSTART;TZID=Europe/Berlin:20270228T193000
 DTEND;TZID=Europe/Berlin:20270228T203000
-DTSTAMP:20261127T133654
+DTSTAMP:20261128T124956
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nLe Concert de la Loge\nJulien Chauvin, Violine & 
@@ -2425,7 +2364,7 @@ CREATED:20270304T183000
 UID:62973
 DTSTART;TZID=Europe/Berlin:20270304T193000
 DTEND;TZID=Europe/Berlin:20270304T203000
-DTSTAMP:20261127T133655
+DTSTAMP:20261128T124958
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nGeben Sie es zu, Sie haben gerade „Power to the
@@ -2456,7 +2395,7 @@ CREATED:20270307T100000
 UID:62976
 DTSTART;TZID=Europe/Berlin:20270307T110000
 DTEND;TZID=Europe/Berlin:20270307T120000
-DTSTAMP:20261127T133656
+DTSTAMP:20261128T124959
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nFlorian Heinisch, Klavier & Moderation\nProgramm:
@@ -2485,7 +2424,7 @@ CREATED:20270312T183000
 UID:62977
 DTSTART;TZID=Europe/Berlin:20270312T193000
 DTEND;TZID=Europe/Berlin:20270312T203000
-DTSTAMP:20261127T133658
+DTSTAMP:20261128T125001
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nEr trägt stets den Schalk im Nacken, verliert da
@@ -2516,7 +2455,7 @@ CREATED:20270314T100000
 UID:62978
 DTSTART;TZID=Europe/Berlin:20270314T110000
 DTEND;TZID=Europe/Berlin:20270314T120000
-DTSTAMP:20261127T133659
+DTSTAMP:20261128T125003
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nFranziska Hölscher & Friends\nFranziska Hölsche
@@ -2547,7 +2486,7 @@ CREATED:20270403T102831
 UID:56978
 DTSTART;TZID=Europe/Berlin:20270403T203000
 DTEND;TZID=Europe/Berlin:20270403T213000
-DTSTAMP:20261127T133700
+DTSTAMP:20261128T125005
 LOCATION:Pfalzbau\, Berliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Valentin Findling bringt die Magie von Freddie Mercury auf Euro
  pas Bühnen„The Music of Queen Live“ ist weit mehr als ein Tribute –
@@ -2588,7 +2527,7 @@ CREATED:20270403T105618
 UID:57414
 DTSTART;TZID=Europe/Berlin:20270403T143000
 DTEND;TZID=Europe/Berlin:20270403T153000
-DTSTAMP:20261127T133702
+DTSTAMP:20261128T125007
 LOCATION:Pfalzbau\, Berliner Str. 30\, 67059 Ludwigshafen am Rhein
 DESCRIPTION:Absurd und urkomisch. Seine unvergesslichen Sketche live in üb
  er 80 Städten. Vicco von Bülow alias Loriot zählt zu den größten Humo
@@ -2620,7 +2559,7 @@ CREATED:20270404T150000
 UID:62980
 DTSTART;TZID=Europe/Berlin:20270404T170000
 DTEND;TZID=Europe/Berlin:20270404T180000
-DTSTAMP:20261127T133704
+DTSTAMP:20261128T125008
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nLandesjugendorchester Rheinland-Pfalz\nNicolas Ki
@@ -2640,7 +2579,7 @@ CREATED:20270406T173000
 UID:62981
 DTSTART;TZID=Europe/Berlin:20270406T193000
 DTEND;TZID=Europe/Berlin:20270406T203000
-DTSTAMP:20261127T133705
+DTSTAMP:20261128T125010
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nJoseph Moog, Klavier & Moderation\nProgramm:\nLud
@@ -2673,7 +2612,7 @@ CREATED:20270411T090000
 UID:62985
 DTSTART;TZID=Europe/Berlin:20270411T110000
 DTEND;TZID=Europe/Berlin:20270411T120000
-DTSTAMP:20261127T133706
+DTSTAMP:20261128T125011
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nJaeden Izik-Dzurko, Klavier\nProgramm:\nFrédéri
@@ -2702,7 +2641,7 @@ CREATED:20270418T090000
 UID:62986
 DTSTART;TZID=Europe/Berlin:20270418T110000
 DTEND;TZID=Europe/Berlin:20270418T120000
-DTSTAMP:20261127T133708
+DTSTAMP:20261128T125013
 LOCATION:BASF-Gesellschaftshaus\, Wöhlerstraße 15\, 67063 Ludwigshafen am
   Rhein
 DESCRIPTION:Ludwigshafen\nClarinet Trio Anthology\nDaniel Ottensamer, Klari
@@ -2734,7 +2673,7 @@ CREATED:20270428T173000
 UID:62989
 DTSTART;TZID=Europe/Berlin:20270428T193000
 DTEND;TZID=Europe/Berlin:20270428T203000
-DTSTAMP:20261127T133709
+DTSTAMP:20261128T125015
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nHet Residentie Orkest Den Haag\nJun Märkl, Leitu
@@ -2763,7 +2702,7 @@ CREATED:20270505T173000
 UID:62990
 DTSTART;TZID=Europe/Berlin:20270505T193000
 DTEND;TZID=Europe/Berlin:20270505T203000
-DTSTAMP:20261127T133711
+DTSTAMP:20261128T125016
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nKammerorchester Basel\nGiovanni Antonini, Leitung
@@ -2798,7 +2737,7 @@ CREATED:20270512T180000
 UID:62991
 DTSTART;TZID=Europe/Berlin:20270512T200000
 DTEND;TZID=Europe/Berlin:20270512T210000
-DTSTAMP:20261127T133712
+DTSTAMP:20261128T125018
 LOCATION:BASF-Feierabendhaus\, Leuschnerstraße 47\, 67063 Ludwigshafen am 
  Rhein
 DESCRIPTION:Ludwigshafen\nFrüher spielte er in Hardcore-Punkbands, heute e
